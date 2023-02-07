@@ -1,18 +1,18 @@
 <!DOCTYPE html>
     <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Sign Up Form</title>
-        <link rel="stylesheet" href="signupf.css">
+        <link rel="stylesheet" href="signup.css">
     </head>
     <body>
         <div class="sign-up-formf">
-            <img src="user-icon.png" alt="Avatar">
+            <img src="image\user-icon.png" alt="Avatar">
             <h1>Sign Up</h1>
-            <form>
-                <input type="text" class="input-box" placeholder="Username">
-                <input type="text" class="input-box" placeholder="Password">
-                <input type="text" class="input-box" placeholder="Contact No."><br>
-                <button type="button" class="signup-btn">Sign Up</button>
+            <form action="signupf.php" method="post">
+                <input type="text" class="input-box" placeholder="Username" name="username">
+                <input type="text" class="input-box" placeholder="Password" name="password">
+                <input type="text" class="input-box" placeholder="Contact No." name="contactno"><br>
+                <button type="signup" class="signup-btn">Sign Up</button>
                 <hr>
                 <p class="or">Or</p>
                 <p>Do you have Account?</p>
