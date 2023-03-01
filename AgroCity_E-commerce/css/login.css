@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: rgb(151, 230, 252);
+    background-size: cover;
+    background-position: center;
+}
+.sign-in-formc{
+    width: 300px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+    background: #fff;
+    padding: 30px;
+    margin: 10% auto 0;
+    text-align: center;
+}
+.sign-in-formc h1{
+    color: #1c8adb;
+    margin-bottom: 20px;
+    font-size: 31px;
+}
+.input-box{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 95%;
+    border: 1px solid #999;
+    outline: none;
+}
+/*button{
+    color: #fff;
+    width: 100%;
+    padding:  10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}*/
+.signin-btn{
+    background-color: #1c8adb;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 95%;
+    border: 1px solid #999;
+    outline: none;
+    font-size: 20px;
+}
+img{
+    width: 100px;
+    margin-top: -70px;
+    border-radius: 100%;
+}
+/*.login{
+    width: 300px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+    background: #fff;
+    padding: 35px;
+    margin: 13% auto 0;
+    text-align: center;
+}
+.login h1{
+    color: #0c2283;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+.login-btn{
+    background-color: #1c8adb;
+}
+*/
