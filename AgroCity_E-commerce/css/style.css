@@ -74,6 +74,9 @@ h3{
 .float-container{
     position: relative;
 }
+.Describe{
+    color: #ffffff;
+}
 .float-text{
     position: absolute;
     bottom: 50px;
@@ -107,17 +110,17 @@ fieldset{
 }
 
 
-/* CSS for Food SEarch Section */
+/* CSS for crop SEarch Section */
 
-.food-search{
-    background-image: url(../images/bg.jpg);
+.crop-search{
+    background-image: url(../images/crops.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     padding: 7% 0;
 }
 
-.food-search input[type="search"]{
+.crop-search input[type="search"]{
     width: 50%;
     padding: 1%;
     font-size: 1rem;
@@ -128,14 +131,25 @@ fieldset{
 
 /* CSS for Categories */
 .categories{
+    padding: 30px 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
     padding: 4% 0;
 }
-
-.box-3{
-    width: 28%;
-    height: 400px !important;
-    float: left;
-    margin: 2%;
+.categories div{
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 300;
+    border-radius: 10px;
+}
+.categories div .box-3{
+    height: 200px;
+    width: 29%;
+    padding: 25px;
+    display: flex;
+    float:left;
 }
 
 
