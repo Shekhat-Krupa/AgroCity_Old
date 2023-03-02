@@ -1,5 +1,5 @@
 
-<?php include('partitals/menu.php') ?>
+<?php include('partitals/menu.php'); ?>
         <div class="main-content">
             <div class="wrapper">
                 <h1>DASHBOARD</h1>

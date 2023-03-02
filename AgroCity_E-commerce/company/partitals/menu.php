@@ -1,3 +1,4 @@
+<?php include('../config/constant.php'); ?>
 <html>
     <head>
         <title>Agrocity</title>

@@ -4,7 +4,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 .wrapper{
-    padding: 100%;
+    padding: 1%;
     width: 80%;
     margin: 0 auto;
 }
@@ -16,20 +16,58 @@
     clear: both;
 }
 /*manage-company*/
-.tb1{
-    width: 100% !important;
+.tbl-full{
+    width: 100%;
 }
 table tr th{
-    border-bottom: 1px solid black !important;
-    padding: 1% !important;
+    border-bottom: 1px solid black;
+    padding: 1%;
     text-align: left;
 }
 table tr td{
     padding: 1%;
 }
 .btn-primary{
-    background-color: #1e90ff;
-
+    background-color: #ff7c1e;
+    padding: 1%;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+.btn-secondary:hover{
+    background: #1e90fe;
+}
+.btn-secondary{
+    background-color: #2faa0a;
+    padding: 1%;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+.btn-primary:hover{
+    background: #1e90fe;
+}
+.tbl{
+    width: 30%;
+}
+.input-box{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 3px 0;
+    width: 95%;
+    border: 2px solid #999;
+    outline: none;
+}
+.btn-third{
+    background-color: #ff7c1e;
+    border-radius: 20px;
+    padding: 3%;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+.btn-third:hover{
+    background: #1e90fe;
 }
 /*for menu*/
 .menu{
