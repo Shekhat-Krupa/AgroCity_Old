@@ -35,9 +35,19 @@ table tr td{
     font-weight: bold;
 }
 .btn-secondary:hover{
-    background: #1e90fe;
+    background: #2faa0a;
 }
 .btn-secondary{
+    background-color: #1e90fe;
+    padding: 1%;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+.danger:hover{
+    background: #1e90fe;
+}
+.danger{
     background-color: #2faa0a;
     padding: 1%;
     text-decoration: none;
@@ -68,6 +78,12 @@ table tr td{
 }
 .btn-third:hover{
     background: #1e90fe;
+}
+.success{
+    color: #2ed573;
+}
+.error{
+    color: #ff4757;
 }
 /*for menu*/
 .menu{
@@ -100,3 +116,9 @@ table tr td{
     padding: 2%;
     float: left;
 }
+/*.login{
+    border: 1px solid gray;
+    width: 20%;
+    margin: 5% auto;
+    padding: 2%;
+}*/

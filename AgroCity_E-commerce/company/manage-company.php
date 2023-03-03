@@ -10,6 +10,34 @@
                 echo $_SESSION['add'];//display
                 unset($_SESSION['add']);//removie after one time
             }
+
+            if(isset($_SESSION['delete']))
+            {
+                echo $_SESSION['delete'];//display
+                unset($_SESSION['delete']);//removie after one time
+            }
+
+            if(isset($_SESSION['update']))
+            {
+                echo $_SESSION['update'];//display
+                unset($_SESSION['update']);//removie after one time
+            }
+            if(isset($_SESSION['user-not-found']))
+            {
+                echo $_SESSION['user-not-found'];//display
+                unset($_SESSION['user-not-found']);//removie after one time
+            }
+            if(isset($_SESSION['pwd-not-match']))
+            {
+                echo $_SESSION['pwd-not-match'];//display
+                unset($_SESSION['pwd-not-match']);//removie after one time
+            }
+            if(isset($_SESSION['change-pwd']))
+            {
+                echo $_SESSION['change-pwd'];//display
+                unset($_SESSION['change-pwd']);//removie after one time
+            }
+
         ?>
         <br/><br/>
         <a href="add-company.php" class="btn-primary">Add Company</a>
@@ -49,8 +77,9 @@
                                 <td><?php echo $name; ?></td>
                                 <td><?php echo $username; ?></td>
                                 <td>
-                                    <a href="#" class="btn-secondary"> Update Company</a>
-                                    <a href="#" class="btn-secondary"> Delete Company</a>
+                                    <a href="<?php echo SITEURL; ?>company/update-password.php?id=<?php echo $id; ?>" class="btn-primary">Change Password</a>
+                                    <a href="<?php echo SITEURL; ?>company/update-company.php?id=<?php echo $id; ?>" class="btn-secondary"> Update Company</a>
+                                    <a href="<?php echo SITEURL; ?>company/delete-company.php?id=<?php echo $id; ?>" class="danger"> Delete Company</a>
                                 </td>
                             </tr>
                             <?php
